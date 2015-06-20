@@ -1,11 +1,6 @@
 intel-boot-tools
 ================
 
-Tools to pack/unpack RAZR i bootimages
-
-support `Moto RAZR i` /  `lenove K900`
-
-
 original source
 
 http://forum.xda-developers.com/showthread.php?t=1972589
