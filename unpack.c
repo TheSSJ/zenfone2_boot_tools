@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 	char buf[BUFSIZ];
 	size_t size;
 
-	if (argc != 4)
+	if (argc != 5)
 		ERROR("Usage: %s <image to unpack> <bzImage out> <ramdisk out> <second out>\n", argv[0]);
 
 	origin = argv[1];
