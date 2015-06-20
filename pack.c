@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 	size_t size;
 	struct bootheader *file;
 
-	if (argc != 5)
+	if (argc != 6)
 		ERROR("Usage: %s <valid image> <bzImage> <ramdisk> <secondstage> <output>\n", argv[0]);
 
 	origin = argv[1];
