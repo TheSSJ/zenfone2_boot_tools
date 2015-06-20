@@ -54,6 +54,7 @@ int main(int argc, char *argv[])
 	origin = argv[1];
 	bzImage = argv[2];
 	ramdisk = argv[3];
+	second = argv[4];
 	forigin = fopen(origin, "r");
 	fbzImage = fopen(bzImage, "w");
 	framdisk = fopen(ramdisk, "w");
